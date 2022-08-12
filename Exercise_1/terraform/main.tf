@@ -28,6 +28,7 @@ resource "aws_instance" "udacity_ec2_block1" {
   subnet_id     = "subnet-0d5b874f3ddcc9e43"
   tags = {
     Purpose = "Udacity"
+    Name = "Udacity T2"
   }
 }
 
@@ -38,5 +39,6 @@ resource "aws_instance" "udacity_ec2_block2" {
   subnet_id     = "subnet-0d5b874f3ddcc9e43"
   tags = {
     Purpose = "Udacity"
+    Name = "Udacity T4"
   }
 }
