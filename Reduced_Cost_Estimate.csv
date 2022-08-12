@@ -1,0 +1,19 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,15218,1836.476,37255.71,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (1 TB per month), Nodes (2), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (Partial Upfront), Additional backup storage (1 TB)"
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,78.93,947.16,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Data Transfer,0,2,24,USD,"DT Inbound: Internet (1 TB per month), DT Outbound: Amazon CloudFront (1 TB per month), DT Intra-Region: (100 GB per month), Data transfer cost (2)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,108.52,1302.24,USD,"Data transfer out to internet (1 TB per month), Data transfer out to origin (1 TB per month), Number of requests (HTTPS) (1000000 per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2,10848,1516.68,29048.16,USD,"Operating system (Linux), Quantity (6), Pricing strategy (Standard Reserved Instances 1 Year Partial Upfront), Storage amount (1 TB), Instance type (m5a.4xlarge)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,266.45,3197.4,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,S3 Standard,0,238.28,2859.36,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,92.16,1105.92,USD,"DT Inbound: Internet (1 TB per month), DT Outbound: Internet (1 TB per month)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+Total monthly,4139.496,,,,,,,
+Changes has been made to reduce cost and to not effect to current running environment:,,,,,,,,
+RDS reverse choose one-year with partial upfront,,,,,,,,
+EC2 reverse instance with partial upfront,,,,,,,,
